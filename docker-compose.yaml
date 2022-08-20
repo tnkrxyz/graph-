@@ -20,6 +20,7 @@ services:
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
       ethereum: ${ETHEREUM_API_URL}
+      fork_base: 'https://api.thegraph.com/subgraphs/id/'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.4.23
